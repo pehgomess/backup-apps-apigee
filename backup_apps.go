@@ -187,8 +187,6 @@ func main() {
 				continue
 			}
 
-			// Salvar o JSON em um arquivo ou fazer qualquer outra manipulação desejada
-
 			filename := fmt.Sprintf(dirBackup+"/%s.json", app.AppId)
 			err = saveToFile(filename, jsonData)
 			if err != nil {
