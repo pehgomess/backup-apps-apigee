@@ -8,7 +8,7 @@ No diretorio corrente executar o comando abaixo para criar o pacote \
 Executar os comandos go get nos pacotes da google \
 `go get -u golang.org/x/oauth2/google` \
 `go get -u google.golang.org/api/apigee/v1` \
-`go mod tidy`\
+`go mod tidy`
 
 
 # Para usar o codigo
