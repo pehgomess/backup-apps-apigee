@@ -22,3 +22,5 @@ Description: Este programa faz backup de todos os Apps do Apigee.
 - Options: <backupDir> - Diretorio que deseja criar. OBS: O script cria no final do diretorio  _timestamp
 
 Ex: go run backup_apps.go service-account.json my-org backups
+
+OBS: Dentro do diretorio de backup, contem o arquivo.json onde o arquivo eh o nome do app e dentro o conteudo do json.
